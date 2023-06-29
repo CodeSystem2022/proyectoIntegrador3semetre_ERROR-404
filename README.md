@@ -5,13 +5,13 @@ Proyecto **Cafetería** con <img width="20" height="20" src="https://img.icons8.
 
 ---
 
-## <img width="20" height="20" src="https://img.icons8.com/fluency/20/computer.png" alt="computer"/>  Tecnologías
+## <img width="30" height="30" src="https://img.icons8.com/fluency/30/computer.png" alt="computer"/>  Tecnologías
 
 - <img width="20" height="20" src="https://img.icons8.com/color/20/python--v1.png" alt="python--v1"/> Python 
 
 ---
 
-## <img width="20" height="20" src="https://img.icons8.com/color/20/team-skin-type-7.png" alt="team-skin-type-7"/> Integrantes
+## <img width="30" height="30" src="https://img.icons8.com/color/30/team-skin-type-7.png" alt="team-skin-type-7"/> Integrantes
 
 
 - [Ahumada, Brian](https://github.com/brianahumada)                        
