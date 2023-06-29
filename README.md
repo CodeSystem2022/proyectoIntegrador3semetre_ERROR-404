@@ -1,6 +1,8 @@
 # <img src="https://github.com/CodeSystem2022/ERROR-404_Proyecto_3S/assets/72580574/e2ea71c1-7e53-4146-bb90-7708535f6f34" width="50px" alt="logo del grupo error 404">  ERROR-404 Proyecto 3S 
 
-Proyecto **Cafetería** del grupo <img src="https://github.com/CodeSystem2022/Asistencia.Error-404/blob/main/error-404.jpg" width="40px" alt="logo del grupo error 404"> con <img width="26" height="26" src="https://img.icons8.com/color/26/python--v1.png" alt="python--v1"/> **Python**, basado en el código realizado anteriormente en <img width="26" height="26" src="https://img.icons8.com/color/26/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/> Java.
+Proyecto **Cafetería** del grupo **ERROR-404** <img src="https://github.com/CodeSystem2022/Asistencia.Error-404/blob/main/error-404.jpg" width="40px" alt="logo del grupo error 404">.
+
+Se realizó con <img width="26" height="26" src="https://img.icons8.com/color/26/python--v1.png" alt="python--v1"/> **Python**, basado en el código realizado anteriormente en <img width="26" height="26" src="https://img.icons8.com/color/26/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/> Java.
 
 ---
 
