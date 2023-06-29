@@ -27,3 +27,38 @@ class ProductDAO:
                     print(f"Ocurrio un Error: {e}")
 
                 return productos
+
+    @classmethod
+    def insertar(cls, producto):
+        with Conexion.obtenerConexion() as conn:
+            with Conexion.obtenerCursor() as cursor:
+                valores = (producto.nombre, producto.precio)
+                try:
+
+                    cursor.execute(cls._INSERTAR, valores)
+                    conn.commit()
+
+                except Exception as e:
+                    print(f"Ocurrio un ERROR: ${e}")
+                    sys.exit()
+            return cursor.rowcount
+
+
+"""
+    @classmethod
+    def actualizar(cls, producto):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                valores = (producto.nombre, producto.precio,
+                           producto.id_producto)
+                cursor.execute(cls._ACTUALIZAR, valores)
+                return cursor.rowcount
+
+    @classmethod
+    def eliminar(cls, producto):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                valores = (producto.id_producto,)
+                cursor.execute(cls._ELIMINAR, valores)
+                return cursor.rowcount
+"""
