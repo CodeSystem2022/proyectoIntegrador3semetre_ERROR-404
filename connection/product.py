@@ -17,5 +17,20 @@ class Producto:
     @property
     def precio(self):
         return self._precio
+
+
+    # setters de la clase producto
+
+    @nombre.setter
+    def nombre(self, nombre):
+        self._nombre = nombre
+
+    @precio.setter
+    def precio(self, precio):
+        self._precio = precio
+
+    # metodo ToString
+
+    def __str__(self):
+        return f"{self.nombre} ===== (${self.precio})"
     
-    # TODO: faltan los setters y el metodo toString
