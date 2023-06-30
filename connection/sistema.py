@@ -79,3 +79,14 @@ class banner:
                 print(f"Cambio a devolver: ${cambio}")
         else:
             print("No se agregaron productos al pedido.")
+
+        def acerca_de(self):
+
+            nombres = """Ahumada, Brian; Alancay, Abel Matías; Alsina, Maximiliano; Berrini, 
+                   Alejandro; Calle, Sonia; Chávez, Rodrigo; Costa, María Eugenia; Navarro, Lucas; Sanguinetti, Pablo"""
+            print("Lista de nombres:")
+            print(nombres)
+
+        def salir(self):
+            print("¡Hasta luego!")
+            sys.exit()
