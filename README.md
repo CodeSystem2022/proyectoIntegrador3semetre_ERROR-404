@@ -1,4 +1,4 @@
-# <img src="https://github.com/CodeSystem2022/ERROR-404_Proyecto_3S/assets/72580574/e2ea71c1-7e53-4146-bb90-7708535f6f34" width="50px" alt="logo del grupo error 404">  ERROR-404 Proyecto 3S <img src="https://github.com/CodeSystem2022/ERROR-404_Proyecto_3S/assets/72580574/e2ea71c1-7e53-4146-bb90-7708535f6f34" width="50px" alt="logo del grupo error 404">
+# <img src="https://github.com/CodeSystem2022/ERROR-404_Proyecto_3S/assets/72580574/e2ea71c1-7e53-4146-bb90-7708535f6f34" width="50px" alt="logo del grupo error 404">  Proyecto Integrador 3er semetre -ERROR-404 <img src="https://github.com/CodeSystem2022/ERROR-404_Proyecto_3S/assets/72580574/e2ea71c1-7e53-4146-bb90-7708535f6f34" width="50px" alt="logo del grupo error 404">
 
 ---
 
