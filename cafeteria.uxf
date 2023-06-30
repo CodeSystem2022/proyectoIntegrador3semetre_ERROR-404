@@ -1,0 +1,72 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>40</y><w>210</w><h>260</h></coordinates><panel_attributes>&lt;&lt;Conexion&gt;&gt;
+
+--
+class Conexion:
+_DATABASE: String
+_USERNAME: String
+_PASSWORD: String
+_DB_PORT: String
+_HOST: String
+_CONEXION: None
+_CURSOR: None
+--
++obtenerConexion():
++obtenerCursor():
+--
+Responsabilidad
+Se encargar de realizar la conexion 
+a la base de datos y de 
+obtener el cursor.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>390</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Producto&gt;&gt;
+--
+id_producto: int
+nombre: String
+precio: double
+--
++__init__(self)
++__str(self)
++getter()
++setter()
+--
+Responsabilidad
+Esta clase se usara para la creacion 
+de productos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>220</y><w>210</w><h>250</h></coordinates><panel_attributes>&lt;&lt;ProductoDao&gt;&gt;
+--
+_SELECIONAR: String
+_INSETAR: String
+_ACTUALIZAR: String
+_ELIMINAR: String
+--
++selecionar()
++insertar()
++actualizar()
++eliminar()
+--
+Responsibilidad
+se encarga de proporcionar los 
+metodos de clase para interactuar
+con la bases de datos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>220</y><w>210</w><h>260</h></coordinates><panel_attributes>&lt;&lt;Sistema&gt;&gt;
+--
+Class banner:
+--
++mostrar_banner()
++mostrar_menu()
++realizar_pedido()
++acerca_de()
++salir()
++menu_sistema()
++Comprobacion_datos(nombre,precio)
++agregar_producto()
+--
+Responsibilities
+Esta clase se encarga
+de la interfas en consola</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>600</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Main&gt;&gt;
+
+
+--
+Responsibilidad
+Es la clase en la 
+que inicia la aplicacion.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>240</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>400</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>330</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>950</x><y>470</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;.&gt;
+</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element></diagram>
