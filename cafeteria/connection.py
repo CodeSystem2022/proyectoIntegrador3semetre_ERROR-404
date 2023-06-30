@@ -3,7 +3,7 @@ import psycopg2 as bd
 
 
 class Conexion:
-    _DATABASE = 'Cafeteria'
+    _DATABASE = 'cafeteria'
     _USERNAME = 'postgres'
     _PASSWORD = 'admin'
     _DB_PORT = '5432'
