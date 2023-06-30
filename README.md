@@ -6,7 +6,9 @@
 Proyecto <img width="40" height="40" src="https://img.icons8.com/external-photo3ideastudio-lineal-color-photo3ideastudio/40/external-cafeteria-cholesterol-photo3ideastudio-lineal-color-photo3ideastudio.png" alt="cafeteria"/> **Cafetería** del grupo **ERROR-404** <img src="https://github.com/CodeSystem2022/Asistencia.Error-404/blob/main/error-404.jpg" width="40px" alt="logo del grupo error 404">.
 
 
-Se realizó con <img width="32" height="32" src="https://img.icons8.com/color/32/python--v1.png" alt="python--v1"/> **Python** como lenguje de programación y con <img width="32" height="32" src="https://img.icons8.com/color/32/postgreesql.png" alt="postgreesql"/> **Postgresql** como base de datos; basado en el código realizado anteriormente en el Primer año de la Tecnicaturá con **PseInt**.
+Se realizó con <img width="32" height="32" src="https://img.icons8.com/color/32/python--v1.png" alt="python--v1"/> **Python** como lenguje de programación y con <img width="32" height="32" src="https://img.icons8.com/color/32/postgreesql.png" alt="postgreesql"/> **Postgresql** como base de datos; basado en el código realizado anteriormente en el Primer año de la Tecnicaturá con **PseInt** como un primer MVP y agregándole más funcionalidades en este nuevo proyecto.
+
+
 
 Es una cafetería, con un banner al inicio:
 
@@ -21,11 +23,11 @@ Es una cafetería, con un banner al inicio:
 
 Y la continuación el **menú**, con las opciones para:
 
-- <img width="30" height="30" src="https://img.icons8.com/external-justicon-flat-justicon/30/external-check-list-working-from-home-justicon-flat-justicon.png" alt="external-check-list-working-from-home-justicon-flat-justicon"/> Realizar un pedido
+- <img width="30" height="30" src="https://img.icons8.com/external-justicon-flat-justicon/30/external-check-list-working-from-home-justicon-flat-justicon.png" alt="external-check-list-working-from-home-justicon-flat-justicon"/> Realizar un pedido, a partir de productos guardados en una base de datos Postgresql.
 
 - <img width="30" height="30" src="https://img.icons8.com/ios/30/groups.png" alt="grupo de personas"/> Ver "Acerca de", donde están los nombres de los integrantes
 
-- <img width="30" height="30" src="https://img.icons8.com/emoji/30/package-.png" alt="paquete"/> Administrar productos
+- <img width="30" height="30" src="https://img.icons8.com/emoji/30/package-.png" alt="paquete"/> Administrar productos, permitiendo dar de alta productos nuevos en la base de datos y que luego sean incorporados a la lista de productos disponibles
   
 - <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/emergency-exit.png" alt="salida de emergencia"/> Salir del sistema
 
