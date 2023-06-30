@@ -46,6 +46,35 @@ Y la continuación el **menú**, con las opciones para:
 ---
 
 
+## <img width="40" height="40" src="https://img.icons8.com/external-flaticons-flat-flat-icons/40/external-scrum-agile-flaticons-flat-flat-icons.png" alt="external-scrum-agile-flaticons-flat-flat-icons"/> Metodologías
+
+Implementamos el marco de desarrollo <img width="30" height="30" src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/external-scrum-agile-flaticons-flat-flat-icons-6.png" alt="external-scrum-agile-flaticons-flat-flat-icons-6"/> **Scrum**, partiendo de un MVP(Producto Mínimo Viable) incormporamos nuevas funcionalidades, como la opción de incorporar nuevos productos en el menú.
+
+En **git** nos organizamos el **workflow** paertiendo desde la rama(branch) principal **main** y creando nuevas ramas para cada issue(tarea) asignada. Una vez finalizada la tarea dicha rama es unida a la rama main.
+
+#### <img width="30" height="30" src="https://img.icons8.com/external-flaticons-flat-flat-icons/30/external-scrum-agile-flaticons-flat-flat-icons-7.png" alt="external-scrum-agile-flaticons-flat-flat-icons-7"/> ¿Y cómo organizamos cada tarea?
+
+- Creamos un **issue** por cada tarea asignada a un integrante del equipo
+
+- Utilizamos el número del issue para nombrar a la rama en la que trabajamos, por ejemplo: ``feat/#5-clase-product``
+
+- Una vez finalizada al tarea, teniendola nueva rama actualizada en el repositorio remoto (GitHub) se solicita el **merge request** que es verificado por otro integrante del equipo.
+
+- De ser aprobado...
+
+... se una la rama de trabajo con main
+
+... se elimina la rama de trabajo 
+
+...se cierra el issue
+
+...se avisa al resto del equipo para que actualicen sus repositorios locales con los nuevos cambios.
+
+De este modo, no tuvimos conflictos con el repositorio, pudiendo hacer un desarrollo en equipo.
+
+---
+
+
 ## <img width="50" height="50" src="https://img.icons8.com/color/30/team-skin-type-7.png" alt="team-skin-type-7"/> Integrantes
 
 
