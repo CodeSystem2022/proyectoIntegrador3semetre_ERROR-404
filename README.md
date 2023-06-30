@@ -19,7 +19,7 @@ Es una cafetería, con un banner al inicio:
 ```
 
 
-Y la continuacion el **menú**, con las opciones para:
+Y la continuación el **menú**, con las opciones para:
 
 - <img width="30" height="30" src="https://img.icons8.com/external-justicon-flat-justicon/30/external-check-list-working-from-home-justicon-flat-justicon.png" alt="external-check-list-working-from-home-justicon-flat-justicon"/> Realizar un pedido
 
