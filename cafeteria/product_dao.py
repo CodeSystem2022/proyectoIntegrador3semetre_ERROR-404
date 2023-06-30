@@ -1,6 +1,6 @@
 import sys
 from connection import Conexion
-from connection.product import Producto
+from cafeteria.product import Producto
 
 
 class ProductDAO:

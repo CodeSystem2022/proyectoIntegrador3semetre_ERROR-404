@@ -80,47 +80,47 @@ class banner:
         else:
             print("No se agregaron productos al pedido.")
 
-        def acerca_de(self):
+    def acerca_de(self):
 
-            nombres = """Ahumada, Brian; Alancay, Abel Matías; Alsina, Maximiliano; Berrini, 
-                   Alejandro; Calle, Sonia; Chávez, Rodrigo; Costa, María Eugenia; Navarro, Lucas; Sanguinetti, Pablo"""
-            print("Lista de nombres:")
-            print(nombres)
+        nombres = """Ahumada, Brian; Alancay, Abel Matías; Alsina, Maximiliano; Berrini, 
+               Alejandro; Calle, Sonia; Chávez, Rodrigo; Costa, María Eugenia; Navarro, Lucas; Sanguinetti, Pablo"""
+        print("Lista de nombres:")
+        print(nombres)
 
-        def salir(self):
-            print("¡Hasta luego!")
-            sys.exit()
+    def salir(self):
+        print("¡Hasta luego!")
+        sys.exit()
 
-        def menu_sistema(self):
-            print("1.Agregar producto\n")
-            print("2.Salir\n")
-            opcion = input("Seleciona del 1-2: ")
+    def menu_sistema(self):
+        print("1.Agregar producto\n")
+        print("2.Salir\n")
+        opcion = input("Seleciona del 1-2: ")
 
-            if opcion == "1":
-                banner.agregar_producto(self)
+        if opcion == "1":
+            banner.agregar_producto(self)
 
-            elif opcion == "2":
-                banner.mostrar_menu(self)
-            else:
-                print("Opción inválida. Por favor, selecciona una opción válida.\n")
+        elif opcion == "2":
+            banner.mostrar_menu(self)
+        else:
+            print("Opción inválida. Por favor, selecciona una opción válida.\n")
 
-        def comprobacion_datos(self, nombre, precio1):
-            # comprueba si nombre es una instancia String y si precio es (int o float)
-            if isinstance(nombre, str) and isinstance(precio1, (float, int)):
-                producto = Producto(nombre, precio1)
-                ProductDAO.insertar(producto)
-                print("producto agregado")
-            else:
-                print("los datos son incorrectos")
+    def comprobacion_datos(self, nombre, precio1):
+        # comprueba si nombre es una instancia String y si precio es (int o float)
+        if isinstance(nombre, str) and isinstance(precio1, (float, int)):
+            producto = Producto(nombre, precio1)
+            ProductDAO.insertar(producto)
+            print("producto agregado")
+        else:
+            print("los datos son incorrectos")
 
-        def agregar_producto(self):
-            global precio
-            print("Agrega tu producto\n")
-            nombre = input("Nombre el Producto: ")
-            try:
-                precio = float(input("Precio del producto: "))
-            except ValueError as e:
-                print("precio incorrecto")
+    def agregar_producto(self):
+        global precio
+        print("Agrega tu producto\n")
+        nombre = input("Nombre el Producto: ")
+        try:
+            precio = float(input("Precio del producto: "))
+        except ValueError as e:
+            print("precio incorrecto")
 
-            banner.comprobacion_datos(self, nombre, precio, )
+        banner.comprobacion_datos(self, nombre, precio, )
 
